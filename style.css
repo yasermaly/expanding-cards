@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=muli&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Mulish:wght@300&family=Roboto:wght@400;700&display=swap');
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Muli', sans-serif;
+  font-family: 'Mulish', sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,7 +24,7 @@ body {
   background-repeat: no-repeat;
   height: 80vh;
   border-radius: 50px;
-  color: white;
+  color: black;
   cursor: pointer;
   flex: 0.5;
   margin: 10px;
@@ -48,6 +47,7 @@ body {
 
 .panel.active h3 {
   opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
 }
 
 @media (max-width: 480px) {
